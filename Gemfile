@@ -4,14 +4,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 
 
-
-group :production do
-  gem 'pg'
-end
-
-group :development do
-  gem 'sqlite3'
-end
+# group :production do
+#   gem 'pg'
+# end
+#
+# group :development do
+#   gem 'sqlite3'
+# end
 
 
 
@@ -41,7 +40,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'rspec-core'
 
+gem 'rspec'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

@@ -8,5 +8,4 @@ describe StringAnalyzer do
     expect(s.has_vowels(test_string)).to be false
 
   end
-
 end
